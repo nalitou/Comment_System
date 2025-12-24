@@ -23,7 +23,7 @@ const defaultData = {
     files: [],
     videoJobs: [],
     aiTasks: [],
-    sensitiveWords: ['傻逼', '妈的', '法轮功', '色情', '赌博', '毒品4'],
+    sensitiveWords: ['傻逼', '妈的', '法轮功', '色情', '赌博', '毒品5'],
 };
 const adapter = new JSONFile(dbFile);
 export const db = new Low(adapter, defaultData);
