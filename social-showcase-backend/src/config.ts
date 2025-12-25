@@ -8,7 +8,7 @@ export const config = {
     username: process.env.ADMIN_USERNAME || 'admin',
     password: process.env.ADMIN_PASSWORD || 'Admin@123',
     phone: process.env.ADMIN_PHONE || '19900000000',
-    nickname: '管理员',
+    nickname: '管理员 ',
   },
   superUser: {
     phone: process.env.SUPER_PHONE || '18800000000',
