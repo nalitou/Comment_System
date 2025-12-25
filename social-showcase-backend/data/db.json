@@ -2060,6 +2060,13 @@
       "authorId": "i-QOgSsASDb0tGbuSE1kl",
       "content": "评论 3：这个内容很不错（演示）",
       "createdAt": 1766485663735
+    },
+    {
+      "id": "C_CH2wUkdSOY6y2HKaCtr",
+      "postId": "W5-yrUfyvaoZnlB2acB5I",
+      "authorId": "3_N6FwVXRKzggixNCKrYB",
+      "content": "非常好",
+      "createdAt": 1766602003061
     }
   ],
   "ratings": [
@@ -3286,6 +3293,14 @@
       "score": 4,
       "createdAt": 1766586564726,
       "updatedAt": 1766586564726
+    },
+    {
+      "id": "W5-yrUfyvaoZnlB2acB5I_3_N6FwVXRKzggixNCKrYB",
+      "postId": "W5-yrUfyvaoZnlB2acB5I",
+      "userId": "3_N6FwVXRKzggixNCKrYB",
+      "score": 5,
+      "createdAt": 1766602001955,
+      "updatedAt": 1766602001955
     }
   ],
   "friendRequests": [
@@ -3376,6 +3391,14 @@
       "size": 41045,
       "path": "G:\\fore_end\\social-showcase-backend\\data\\uploads\\ndKTF3bZy1Jya4dmwQGVw",
       "createdAt": 1766588845296
+    },
+    {
+      "id": "kozevkjuFAklOVd0Zw1fD",
+      "name": "bce0f5d3528f5ed9c33138a7d9aef134.mp4",
+      "mime": "video/mp4",
+      "size": 219490,
+      "path": "G:\\fore_end\\social-showcase-backend\\data\\uploads\\kozevkjuFAklOVd0Zw1fD",
+      "createdAt": 1766602108548
     }
   ],
   "videoJobs": [
@@ -3388,6 +3411,17 @@
       "updatedAt": 1766581469514,
       "result": {
         "playUrlMp4": "/files/joTEfxMtPORaGsGN56gEM"
+      }
+    },
+    {
+      "id": "oNHhAK8xYUoSJ_d_wDB8Q",
+      "fileId": "kozevkjuFAklOVd0Zw1fD",
+      "status": "success",
+      "progress": 100,
+      "createdAt": 1766602108559,
+      "updatedAt": 1766602111091,
+      "result": {
+        "playUrlMp4": "/files/kozevkjuFAklOVd0Zw1fD"
       }
     }
   ],
@@ -3928,6 +3962,421 @@
       },
       "createdAt": 1766588039027,
       "updatedAt": 1766588039034,
+      "result": {
+        "safety": {
+          "allowed": false,
+          "reason": "命中敏感词：赌博"
+        }
+      }
+    },
+    {
+      "id": "Gpmwb9YqJOcJlokUGWZ4X",
+      "status": "success",
+      "actions": [
+        "gen_title",
+        "gen_tags",
+        "summarize",
+        "safety"
+      ],
+      "input": {
+        "text": "\n",
+        "actions": [
+          "gen_title",
+          "gen_tags",
+          "summarize",
+          "safety"
+        ]
+      },
+      "createdAt": 1766593570363,
+      "updatedAt": 1766593575291,
+      "result": {
+        "title": "好的，请提供您需要生成标题的具体内容。",
+        "summary": "好的，请提供您需要总结的原文内容。",
+        "tags": [
+          "```json",
+          "内容标签",
+          "助手",
+          "JSON",
+          "数组"
+        ],
+        "safety": {
+          "allowed": true
+        }
+      }
+    },
+    {
+      "id": "i60cdzINBQ35-3oiK33OA",
+      "status": "success",
+      "actions": [
+        "gen_title",
+        "gen_tags",
+        "summarize",
+        "safety"
+      ],
+      "input": {
+        "text": "\n赌博",
+        "actions": [
+          "gen_title",
+          "gen_tags",
+          "summarize",
+          "safety"
+        ]
+      },
+      "createdAt": 1766593578647,
+      "updatedAt": 1766593583846,
+      "result": {
+        "title": "赌博危害大",
+        "summary": "赌博是一种非法且有害的行为，不仅可能导致个人财产损失、家庭破裂，还会破坏社会秩序和稳定。我国法律严禁任何形式的赌博活动，公民应自觉抵制赌博，培养健康的生活方式。",
+        "tags": [
+          "```json",
+          "赌博",
+          "违法",
+          "不良信息",
+          "风险提示"
+        ],
+        "safety": {
+          "allowed": false,
+          "reason": "命中敏感词：赌博"
+        }
+      }
+    },
+    {
+      "id": "1X7ZxAZvNJgYSzwKM0rRN",
+      "status": "success",
+      "actions": [
+        "gen_title"
+      ],
+      "input": {
+        "postId": "W5-yrUfyvaoZnlB2acB5I",
+        "actions": [
+          "gen_title"
+        ]
+      },
+      "createdAt": 1766601698214,
+      "updatedAt": 1766601699484,
+      "result": {
+        "title": "未来地球新貌"
+      }
+    },
+    {
+      "id": "eBSVV_8Vy70rU2-f4PtJM",
+      "status": "success",
+      "actions": [
+        "gen_tags"
+      ],
+      "input": {
+        "postId": "W5-yrUfyvaoZnlB2acB5I",
+        "actions": [
+          "gen_tags"
+        ]
+      },
+      "createdAt": 1766601705417,
+      "updatedAt": 1766601707358,
+      "result": {
+        "tags": [
+          "```json",
+          "未来世界",
+          "环保科技",
+          "自然和谐",
+          "科幻想象"
+        ]
+      }
+    },
+    {
+      "id": "fysMyQuDfOTOBf7lp6Q2j",
+      "status": "success",
+      "actions": [
+        "gen_tags"
+      ],
+      "input": {
+        "text": "\n现在是凌晨，我们正在完成项目的最终测试",
+        "actions": [
+          "gen_tags"
+        ]
+      },
+      "createdAt": 1766602213829,
+      "updatedAt": 1766602215298,
+      "result": {
+        "tags": [
+          "```json",
+          "项目测试",
+          "凌晨工作",
+          "最终阶段",
+          "软件开发"
+        ]
+      }
+    },
+    {
+      "id": "tn4JvwqKq3cR2H6JbwGFo",
+      "status": "success",
+      "actions": [
+        "gen_tags"
+      ],
+      "input": {
+        "text": "\n现在是凌晨，我们正在完成项目的最终测试",
+        "actions": [
+          "gen_tags"
+        ]
+      },
+      "createdAt": 1766602242049,
+      "updatedAt": 1766602244387,
+      "result": {
+        "tags": [
+          "```json",
+          "项目测试",
+          "凌晨工作",
+          "最终阶段",
+          "软件开发"
+        ]
+      }
+    },
+    {
+      "id": "EzkhmmynzYVSC5bdKosSK",
+      "status": "success",
+      "actions": [
+        "gen_title"
+      ],
+      "input": {
+        "text": "\n现在是凌晨，我们正在完成项目的最终测试",
+        "actions": [
+          "gen_title"
+        ]
+      },
+      "createdAt": 1766602246171,
+      "updatedAt": 1766602247529,
+      "result": {
+        "title": "项目最终测试进行中"
+      }
+    },
+    {
+      "id": "lqhVo0GxX0blgFLugSbVZ",
+      "status": "success",
+      "actions": [
+        "summarize"
+      ],
+      "input": {
+        "text": "\n现在是凌晨，我们正在完成项目的最终测试",
+        "actions": [
+          "summarize"
+        ]
+      },
+      "createdAt": 1766602267938,
+      "updatedAt": 1766602269269,
+      "result": {
+        "summary": "凌晨时分，团队正全力以赴进行项目的最终测试。"
+      }
+    },
+    {
+      "id": "oH0LeNHegh013sq-EWedR",
+      "status": "success",
+      "actions": [
+        "gen_title"
+      ],
+      "input": {
+        "text": "\n现在是凌晨，我们正在完成项目的最终测试",
+        "actions": [
+          "gen_title"
+        ]
+      },
+      "createdAt": 1766602302134,
+      "updatedAt": 1766602303744,
+      "result": {
+        "title": "项目最终测试进行中"
+      }
+    },
+    {
+      "id": "qLwJLTJtbD6eDf5BGMe9y",
+      "status": "success",
+      "actions": [
+        "gen_title"
+      ],
+      "input": {
+        "text": "项目最终测试进行中\n现在是凌晨，我们正在完成项目的最终测试",
+        "actions": [
+          "gen_title"
+        ]
+      },
+      "createdAt": 1766602329033,
+      "updatedAt": 1766602330618,
+      "result": {
+        "title": "项目最终测试中"
+      }
+    },
+    {
+      "id": "aiKo54QPQCVVwZWZ6pUil",
+      "status": "success",
+      "actions": [
+        "safety"
+      ],
+      "input": {
+        "text": "\n",
+        "actions": [
+          "safety"
+        ]
+      },
+      "createdAt": 1766602351230,
+      "updatedAt": 1766602351239,
+      "result": {
+        "safety": {
+          "allowed": true
+        }
+      }
+    },
+    {
+      "id": "qaHfuJmbfCFZIStn4S2GW",
+      "status": "success",
+      "actions": [
+        "gen_title"
+      ],
+      "input": {
+        "text": "\n",
+        "actions": [
+          "gen_title"
+        ]
+      },
+      "createdAt": 1766602352463,
+      "updatedAt": 1766602354323,
+      "result": {
+        "title": "好的，请提供您需要生成标题的内容。"
+      }
+    },
+    {
+      "id": "bGtRC-j-O5xx47MXY9aKh",
+      "status": "success",
+      "actions": [
+        "gen_title"
+      ],
+      "input": {
+        "text": "\n现在是凌晨，我们正在完成项目的最终测试",
+        "actions": [
+          "gen_title"
+        ]
+      },
+      "createdAt": 1766602356542,
+      "updatedAt": 1766602357520,
+      "result": {
+        "title": "项目最终测试进行中"
+      }
+    },
+    {
+      "id": "VnzKU1iggasl_vyNRNBfq",
+      "status": "success",
+      "actions": [
+        "gen_tags"
+      ],
+      "input": {
+        "text": "项目最终测试进行中\n现在是凌晨，我们正在完成项目的最终测试",
+        "actions": [
+          "gen_tags"
+        ]
+      },
+      "createdAt": 1766602361816,
+      "updatedAt": 1766602363249,
+      "result": {
+        "tags": [
+          "```json",
+          "项目测试",
+          "最终测试",
+          "凌晨工作",
+          "项目收尾"
+        ]
+      }
+    },
+    {
+      "id": "r0EJEZoDj8L1o6Ow2lylW",
+      "status": "success",
+      "actions": [
+        "safety"
+      ],
+      "input": {
+        "text": "项目最终测试进行中\n现在是凌晨，我们正在完成项目的最终测试",
+        "actions": [
+          "safety"
+        ]
+      },
+      "createdAt": 1766602426570,
+      "updatedAt": 1766602426578,
+      "result": {
+        "safety": {
+          "allowed": true
+        }
+      }
+    },
+    {
+      "id": "5iUmNpb7AL_QeWJstYl3G",
+      "status": "success",
+      "actions": [
+        "safety"
+      ],
+      "input": {
+        "text": "项目最终测试进行中\n现在是凌晨，我们正在完成项目的最终测试，我们还在赌博",
+        "actions": [
+          "safety"
+        ]
+      },
+      "createdAt": 1766602433136,
+      "updatedAt": 1766602433145,
+      "result": {
+        "safety": {
+          "allowed": false,
+          "reason": "命中敏感词：赌博"
+        }
+      }
+    },
+    {
+      "id": "bnOSQyn__a3LXLvEvhkSZ",
+      "status": "success",
+      "actions": [
+        "safety"
+      ],
+      "input": {
+        "text": "项目最终测试进行中\n现在是凌晨，我们正在完成项目的最终测试",
+        "actions": [
+          "safety"
+        ]
+      },
+      "createdAt": 1766602486698,
+      "updatedAt": 1766602486705,
+      "result": {
+        "safety": {
+          "allowed": true
+        }
+      }
+    },
+    {
+      "id": "Pga_H_26cWikDQ_0fj49x",
+      "status": "success",
+      "actions": [
+        "safety"
+      ],
+      "input": {
+        "text": "\n现在是凌晨，我们在进行项目的最终测试",
+        "actions": [
+          "safety"
+        ]
+      },
+      "createdAt": 1766602540243,
+      "updatedAt": 1766602540252,
+      "result": {
+        "safety": {
+          "allowed": true
+        }
+      }
+    },
+    {
+      "id": "tC2eKnwWZNf8wOQF5h7fq",
+      "status": "success",
+      "actions": [
+        "safety"
+      ],
+      "input": {
+        "text": "\n现在是凌晨，我们在进行项目的最终测试，我们还进行了赌博活动",
+        "actions": [
+          "safety"
+        ]
+      },
+      "createdAt": 1766602553167,
+      "updatedAt": 1766602553174,
       "result": {
         "safety": {
           "allowed": false,
